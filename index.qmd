@@ -15,11 +15,9 @@ page-layout: full
 
 ## About
 
-I'm a graduate student in Ecosystem Science and Sustainability at Colorado State University, pursuing graduate certificates in Water Resources and Carbon Management. My work sits at the intersection of environmental data science and strategic leadership, translating complex ecological and hydrological data into clear, actionable insights.
+I am a graduate student in Ecosystem Science and Sustainability at Colorado State University, focused on water resources and carbon management. My work centers on translating complex environmental data into actionable solutions, whether that's building geospatial water supply databases for a National Park Service climate adaptation project, developing remote sensing models to assess wetland carbon recovery, or teaching environmental data science to the next cohort of students at CSU.
 
-Before returning to science, I spent over a decade building and leading a video production company from the ground up, growing it from a small operation into a multi-million dollar enterprise. That background in stakeholder engagement, strategic project development, and organizational leadership shapes how I approach environmental challenges, with rigor, creativity, and an eye toward real-world impact.
-
-Currently, I'm working with the Radical Open Science Syndicate on geospatial water supply databases for a National Park Service climate adaptation project, and serving as an Assistant Instructor for Environmental Data Science at CSU. Outside the lab, I'm an active member of Lake County Search and Rescue, currently serving on the Board of Directors, and call Leadville, CO home.
+I came to this field through an unconventional path. After over a decade building and leading a video production company, a long-term partnership with a client in the tech industry began shifting my focus. Watching growing energy demands accelerate environmental pressure made me want to be on the other side of that problem. But it was a moment on Twin Lakes as I was ferrying firefighters across the water toward the smoke of the Interlaken Fire, watching the flames threaten a reservoir my community depended on, that made my path clear. I've centered my graduate work on data-informed approaches to climate resilience and water resource protection, bringing my skills in stakeholder engagement, strategic thinking, and clear communication to the problems that matter most to me and my home community in Leadville, Colorado.
 
 <hr class="section-sep">
 
@@ -29,7 +27,6 @@ Currently, I'm working with the Radical Open Science Syndicate on geospatial wat
   <div class="skill-tag">Data Management &amp; Analysis</div>
   <div class="skill-tag">Environmental Policy Interpretation</div>
   <div class="skill-tag">Geospatial &amp; Remote Sensing</div>
-  <div class="skill-tag">R &amp; Data Science</div>
   <div class="skill-tag">Water Resources</div>
   <div class="skill-tag">Carbon Management</div>
   <div class="skill-tag">Stakeholder Engagement</div>
