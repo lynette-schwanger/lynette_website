@@ -8,8 +8,7 @@ page-layout: full
 
   <p style="color: #6b8f85; font-size: 1rem; line-height: 1.75; margin-bottom: 2.5rem;">
     A collection of selected projects spanning water resources, environmental data science,
-    policy analysis, and remote sensing. Projects will include documents, GitHub repositories,
-    and Quarto reports.
+    policy analysis, and remote sensing.
   </p>
 
   <!-- ============================================================

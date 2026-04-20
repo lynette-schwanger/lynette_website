@@ -15,11 +15,11 @@ page-layout: full
 
 ## About
 
-I'm a graduate student in Ecosystem Science and Sustainability at Colorado State University, pursuing graduate certificates in Water Resources and Carbon Management. My work sits at the intersection of environmental data science and strategic leadership — translating complex ecological and hydrological data into clear, actionable insights.
+I'm a graduate student in Ecosystem Science and Sustainability at Colorado State University, pursuing graduate certificates in Water Resources and Carbon Management. My work sits at the intersection of environmental data science and strategic leadership, translating complex ecological and hydrological data into clear, actionable insights.
 
-Before returning to science, I spent over a decade building and leading a video production company from the ground up, growing it from a small operation into a multi-million dollar enterprise. That background in stakeholder engagement, strategic project development, and organizational leadership shapes how I approach environmental challenges: with rigor, creativity, and an eye toward real-world impact.
+Before returning to science, I spent over a decade building and leading a video production company from the ground up, growing it from a small operation into a multi-million dollar enterprise. That background in stakeholder engagement, strategic project development, and organizational leadership shapes how I approach environmental challenges, with rigor, creativity, and an eye toward real-world impact.
 
-Currently, I'm working with the Radical Open Science Syndicate on geospatial water supply databases for a National Park Service climate adaptation project, and serving as an Assistant Instructor for Environmental Data Science at CSU. Outside the lab, I'm an active member of Lake County Search and Rescue — serving on the Board of Directors — and call Leadville, CO home.
+Currently, I'm working with the Radical Open Science Syndicate on geospatial water supply databases for a National Park Service climate adaptation project, and serving as an Assistant Instructor for Environmental Data Science at CSU. Outside the lab, I'm an active member of Lake County Search and Rescue, currently serving on the Board of Directors, and call Leadville, CO home.
 
 <hr class="section-sep">
 
@@ -50,4 +50,3 @@ Graduate Certificates in Water Resources and Carbon Management | GPA: 4.0
 Denison University, Granville, OH  
 Magna Cum Laude, Dean's List, Honors Program | GPA: 3.78
 
-:::

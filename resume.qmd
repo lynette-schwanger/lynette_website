@@ -7,7 +7,7 @@ page-layout: full
 <div class="resume-page">
 
   <div class="resume-header">
-    <h1>Résumé</h1>
+    <h1>Resume</h1>
     <a class="download-btn" href="Schwanger_Lynette_Resume.pdf" download>
       ⬇ Download PDF
     </a>
@@ -21,6 +21,7 @@ page-layout: full
       Integrating a proven background in business, media, and program leadership to bridge science and strategy.
       Passionate about transforming complex environmental data into actionable solutions that advance climate resilience.
     </p>
+    <h2>Core Competencies</h2>
     <ul class="competencies-list" style="margin-top:1rem;">
       <li>Data Management &amp; Analysis</li>
       <li>Environmental Policy Interpretation</li>
