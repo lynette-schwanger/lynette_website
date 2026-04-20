@@ -1,0 +1,200 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div class="resume-page">
+
+  <div class="resume-header">
+    <h1>Résumé</h1>
+    <a class="download-btn" href="Schwanger_Lynette_Resume.pdf" download>
+      ⬇ Download PDF
+    </a>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="resume-section">
+    <h2>Summary</h2>
+    <p style="font-size:0.93rem; line-height:1.75; color:#3a4e49;">
+      Graduate student in Ecosystem Science and Sustainability with a focus on water resources and carbon management.
+      Integrating a proven background in business, media, and program leadership to bridge science and strategy.
+      Passionate about transforming complex environmental data into actionable solutions that advance climate resilience.
+    </p>
+    <ul class="competencies-list" style="margin-top:1rem;">
+      <li>Data Management &amp; Analysis</li>
+      <li>Environmental Policy Interpretation</li>
+      <li>Organizational Agility</li>
+      <li>Translating Complex Analyses for Broad Audiences</li>
+      <li>Stakeholder Engagement &amp; Collaboration</li>
+      <li>Strategic Project Development &amp; Management</li>
+    </ul>
+  </div>
+
+  <!-- WATER RESOURCES & ENV DATA SCIENCE -->
+  <div class="resume-section">
+    <h2>Water Resources &amp; Environmental Data Science</h2>
+
+    <div class="resume-entry">
+      <div class="entry-title">Water Database Specialist</div>
+      <div class="entry-date">March 2026 – Present</div>
+      <div class="entry-org">Radical Open Science Syndicate · Fort Collins, CO</div>
+      <ul>
+        <li>Develop geospatial water supply databases for a National Park Service climate adaptation project</li>
+        <li>Apply QA/QC workflows to improve data accuracy, consistency, and usability</li>
+        <li>Automate data querying and visualization tasks using R scripting to improve efficiency and reproducibility</li>
+        <li>Collaborate with NPS staff to streamline database access and support practical use by end users</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Assistant Instructor — Environmental Data Science Applications: Introduction</div>
+      <div class="entry-date">January 2026 – Present</div>
+      <div class="entry-org">Colorado State University · Fort Collins, CO</div>
+      <ul>
+        <li>Selected as Assistant Instructor after completing the course based on academic performance</li>
+        <li>Facilitate weekly office hours providing R troubleshooting and data analysis support to students</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SELECTED PROJECTS -->
+  <div class="resume-section">
+    <h2>Selected Projects — Colorado State University</h2>
+
+    <div class="resume-entry">
+      <div class="entry-title">Reproducible Remote Sensing Model – Restored Wetland Photosynthetic Recovery</div>
+      <div class="entry-date">Spring 2026</div>
+      <ul>
+        <li>Built and validated a predictive model of wetland gross primary production (GPP) using HLS remote sensing data, spectral indices, and AmeriFlux ground-truth observations</li>
+        <li>Applied the model across restored wetland sites on Twitchell Island to assess recovery trajectories and compare seasonal carbon uptake patterns</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">R Shiny Application – Interactive Fen and Wetland Map</div>
+      <div class="entry-date">Fall 2025</div>
+      <ul>
+        <li>Built an interactive Shiny application comparing three Colorado wetland and fen datasets with polygon-level queries to support transparent, data-informed environmental planning</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Colorado Water Planning and Governance – Anti-Speculation Doctrine Case Analysis</div>
+      <div class="entry-date">Fall 2025</div>
+      <ul>
+        <li>Analyzed a Colorado Supreme Court case on municipal water supply planning, demonstrating how realistic demand projections and the "can and will" test help protect shared water resources</li>
+        <li>Summarized takeaways for mountain communities managing growth amid climate impacts on water resources</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Policy Brief – Fen Protection via Regulation 87</div>
+      <div class="entry-date">Fall 2025</div>
+      <ul>
+        <li>Reviewed regulations and authored a policy brief to Colorado's Water Quality Control Commission advocating for stronger fen protections to safeguard water quality, drought buffering, fire resiliency, and carbon storage</li>
+        <li>Recommended actionable steps including avoidance standards, stewardship measures, and improved fen mapping</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL EXPERIENCE -->
+  <div class="resume-section">
+    <h2>Professional Experience</h2>
+
+    <div class="resume-entry">
+      <div class="entry-title">CEO | Founder | Partner</div>
+      <div class="entry-date">January 2019 – May 2025</div>
+      <div class="entry-org">Lightswitch Video · Leadville, CO (Remote/Hybrid)</div>
+      <ul>
+        <li>Led stakeholder and client meetings, translating technical needs into clear deliverables and timelines</li>
+        <li>Fostered strategic partnerships and negotiated contracts to support organizational growth</li>
+        <li>Directly grew Equinix account by 250% within four years</li>
+        <li>Increased company net worth from $56,879 to over $1.8 million</li>
+        <li>Cultivated a values-driven company culture prioritizing inclusivity and collaboration</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Video Production Manager</div>
+      <div class="entry-date">May 2013 – January 2019</div>
+      <div class="entry-org">Lightswitch Video</div>
+      <ul>
+        <li>Built lasting client relationships with organizations such as Chicago Tribune and Gannett</li>
+        <li>Hired and supervised contract teams to deliver high-quality video content for clients</li>
+        <li>Improved workflows through continuous process assessment</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Video Production Coordinator</div>
+      <div class="entry-date">November 2011 – May 2013</div>
+      <div class="entry-org">Lightswitch Video</div>
+      <ul>
+        <li>Established the Video Operations department, creating efficient workflows to scale operations</li>
+        <li>Collaborated across departments to improve digital infrastructure and user experience</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="resume-section">
+    <h2>Education</h2>
+
+    <div class="resume-entry">
+      <div class="entry-title">Professional Science Master's — Ecosystem Science and Sustainability</div>
+      <div class="entry-date">Expected December 2026</div>
+      <div class="entry-org">Colorado State University · Fort Collins, CO</div>
+      <ul>
+        <li>Graduate Certificates in Water Resources and Carbon Management</li>
+        <li>GPA: 4.0</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Bachelor of Arts — English Creative Writing &amp; Cinema</div>
+      <div class="entry-date">May 2009</div>
+      <div class="entry-org">Denison University · Granville, OH</div>
+      <ul>
+        <li>Magna Cum Laude, Dean's List, Honors Program | GPA: 3.78</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- VOLUNTEER WORK -->
+  <div class="resume-section">
+    <h2>Volunteer Work</h2>
+
+    <div class="resume-entry">
+      <div class="entry-title">Secretary and Board of Directors Member</div>
+      <div class="entry-date">January 2026 – Present</div>
+      <div class="entry-org">Lake County Search and Rescue</div>
+      <ul>
+        <li>Elected to the Board of Directors as Secretary</li>
+        <li>Track team certifications, attendance, and new member requirements</li>
+        <li>Set agendas for monthly meetings and record minutes</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Search and Rescue Volunteer</div>
+      <div class="entry-date">May 2024 – Present</div>
+      <div class="entry-org">Lake County Search and Rescue</div>
+      <ul>
+        <li>Provide emergency response support, delivering safe and efficient outcomes for those in need</li>
+        <li>Apply skills in navigation, risk assessment, and incident command in challenging mountain environments</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="entry-title">Stream Restoration Volunteer</div>
+      <div class="entry-date">October 2025</div>
+      <div class="entry-org">Wildlands Restoration Volunteers</div>
+      <ul>
+        <li>Built beaver dam analogs and post-assisted log structures to restore floodplain connectivity and wetland habitat</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+```

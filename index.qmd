@@ -1,0 +1,53 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div class="hero">
+  <div class="hero-name">Lynette Schwanger</div>
+  <div class="hero-title">Environmental Scientist &nbsp;·&nbsp; Water Resources &nbsp;·&nbsp; Carbon Management</div>
+  <div class="hero-divider"></div>
+</div>
+```
+
+::: {.about-section}
+
+## About
+
+I'm a graduate student in Ecosystem Science and Sustainability at Colorado State University, pursuing graduate certificates in Water Resources and Carbon Management. My work sits at the intersection of environmental data science and strategic leadership — translating complex ecological and hydrological data into clear, actionable insights.
+
+Before returning to science, I spent over a decade building and leading a video production company from the ground up, growing it from a small operation into a multi-million dollar enterprise. That background in stakeholder engagement, strategic project development, and organizational leadership shapes how I approach environmental challenges: with rigor, creativity, and an eye toward real-world impact.
+
+Currently, I'm working with the Radical Open Science Syndicate on geospatial water supply databases for a National Park Service climate adaptation project, and serving as an Assistant Instructor for Environmental Data Science at CSU. Outside the lab, I'm an active member of Lake County Search and Rescue — serving on the Board of Directors — and call Leadville, CO home.
+
+<hr class="section-sep">
+
+## Core Competencies
+
+<div class="skills-grid">
+  <div class="skill-tag">Data Management &amp; Analysis</div>
+  <div class="skill-tag">Environmental Policy Interpretation</div>
+  <div class="skill-tag">Geospatial &amp; Remote Sensing</div>
+  <div class="skill-tag">R &amp; Data Science</div>
+  <div class="skill-tag">Water Resources</div>
+  <div class="skill-tag">Carbon Management</div>
+  <div class="skill-tag">Stakeholder Engagement</div>
+  <div class="skill-tag">Strategic Project Leadership</div>
+  <div class="skill-tag">Science Communication</div>
+  <div class="skill-tag">Organizational Agility</div>
+</div>
+
+<hr class="section-sep">
+
+## Education
+
+**Professional Science Master's — Ecosystem Science and Sustainability** *(Expected December 2026)*  
+Colorado State University, Fort Collins, CO  
+Graduate Certificates in Water Resources and Carbon Management | GPA: 4.0
+
+**Bachelor of Arts — English Creative Writing & Cinema** *(May 2009)*  
+Denison University, Granville, OH  
+Magna Cum Laude, Dean's List, Honors Program | GPA: 3.78
+
+:::

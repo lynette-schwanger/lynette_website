@@ -1,0 +1,63 @@
+---
+title: "Portfolio"
+page-layout: full
+---
+
+```{=html}
+<div style="max-width: 860px; margin: 0 auto; padding: 3rem 0;">
+
+  <p style="color: #6b8f85; font-size: 1rem; line-height: 1.75; margin-bottom: 2.5rem;">
+    A collection of selected projects spanning water resources, environmental data science,
+    policy analysis, and remote sensing. Projects will include documents, GitHub repositories,
+    and Quarto reports.
+  </p>
+
+  <!-- ============================================================
+       HOW TO ADD A PROJECT CARD:
+       Copy one of the .portfolio-card blocks below and fill in:
+         - .card-type   → e.g. "GitHub Repo", "Quarto Report", "Document", "Policy Brief"
+         - <h3>         → Project title
+         - <p>          → Short description
+         - href on .card-link → URL to doc, repo, or Quarto page
+         - Link text    → "View on GitHub", "Read Report", "Download PDF", etc.
+       Then remove (or keep) the empty-state block above.
+  ============================================================ -->
+
+  <div class="portfolio-grid">
+
+    <!-- EXAMPLE CARD — uncomment and edit to add a project
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <h3>Wetland GPP Remote Sensing Model</h3>
+      <p>Predictive model of gross primary production for restored wetlands on Twitchell Island using HLS remote sensing data and AmeriFlux observations.</p>
+      <a class="card-link" href="#">Read Report →</a>
+    </div>
+    -->
+
+    <!-- EXAMPLE CARD — uncomment and edit to add a project
+    <div class="portfolio-card">
+      <div class="card-type">GitHub Repo</div>
+      <h3>Interactive Fen &amp; Wetland Map</h3>
+      <p>R Shiny application comparing three Colorado wetland and fen datasets with polygon-level queries for transparent environmental planning.</p>
+      <a class="card-link" href="https://github.com/lynetteschwanger">View on GitHub →</a>
+    </div>
+    -->
+
+    <!-- EXAMPLE CARD — uncomment and edit to add a project
+    <div class="portfolio-card">
+      <div class="card-type">Policy Brief</div>
+      <h3>Fen Protection via Regulation 87</h3>
+      <p>Policy brief to Colorado's Water Quality Control Commission advocating for stronger fen protections to safeguard water quality and carbon storage.</p>
+      <a class="card-link" href="#">Download PDF →</a>
+    </div>
+    -->
+
+  </div>
+
+  <div class="empty-state">
+    <div class="empty-icon">🌿</div>
+    <p>Projects coming soon.<br>Check back as work is added here throughout 2026.</p>
+  </div>
+
+</div>
+```

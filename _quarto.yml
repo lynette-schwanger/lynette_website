@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Lynette Schwanger"
+  favicon: favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: portfolio.qmd
+        text: Portfolio
+      - href: resume.qmd
+        text: Resume
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/lynetteschwanger/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:lynette.schwanger@colostate.edu
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Lynette Schwanger"
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    page-layout: full

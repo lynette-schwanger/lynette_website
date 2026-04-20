@@ -1,0 +1,338 @@
+/*-- scss:defaults --*/
+
+// Color palette — greens and blues, minimalist
+$primary:        #2e7d6e;   // deep teal-green
+$secondary:      #4a9ebb;   // calm blue
+$accent:         #a8d5c2;   // soft mint
+$light-bg:       #f5f9f7;   // very light green-white
+$dark-text:      #1e2d2a;   // near-black with green undertone
+$muted:          #6b8f85;   // muted sage
+$border-color:   #d0e6df;
+
+$body-bg:        #ffffff;
+$body-color:     $dark-text;
+$link-color:     $primary;
+$link-hover-color: darken($primary, 10%);
+
+$font-family-sans-serif: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+$headings-font-family:   'Inter', 'Helvetica Neue', Arial, sans-serif;
+$headings-font-weight:   600;
+$font-size-base:         1rem;
+
+$navbar-bg:      #ffffff;
+$navbar-fg:      $dark-text;
+$navbar-hl:      $primary;
+
+$footer-bg:      $light-bg;
+$footer-fg:      $muted;
+
+/*-- scss:rules --*/
+
+// Google Font import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+// Navbar
+.navbar {
+  border-bottom: 1px solid $border-color;
+  padding: 1rem 0;
+
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: $primary !important;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    font-size: 0.92rem;
+    color: $dark-text !important;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    &:hover { color: $primary !important; }
+  }
+
+  .nav-link.active {
+    color: $primary !important;
+    border-bottom: 2px solid $primary;
+  }
+}
+
+// Page layout
+.page-layout-full .page-columns {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+// Hero section
+.hero {
+  padding: 5rem 0 4rem;
+  text-align: center;
+
+  .hero-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $dark-text;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-title {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: $muted;
+    margin-bottom: 1.8rem;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-divider {
+    width: 48px;
+    height: 3px;
+    background: $primary;
+    margin: 0 auto 2rem;
+    border-radius: 2px;
+  }
+}
+
+// About section
+.about-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 0 4rem;
+
+  h2 {
+    font-size: 1.35rem;
+    color: $primary;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    font-size: 1.02rem;
+    line-height: 1.8;
+    color: #3a4e49;
+    margin-bottom: 1.2rem;
+  }
+}
+
+// Skills / competencies grid
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+
+  .skill-tag {
+    background: $light-bg;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    padding: 0.55rem 0.9rem;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: $primary;
+    text-align: center;
+  }
+}
+
+// Section divider
+.section-sep {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: 3rem 0;
+}
+
+// Portfolio cards
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.4rem;
+  padding: 2rem 0;
+}
+
+.portfolio-card {
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  padding: 1.6rem;
+  background: #fff;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba(46, 125, 110, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .card-type {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $secondary;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: $dark-text;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: $muted;
+    line-height: 1.6;
+  }
+
+  .card-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: $primary;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.empty-state {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: $muted;
+
+  .empty-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+  }
+
+  p { font-size: 0.95rem; }
+}
+
+// Resume page
+.resume-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.resume-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color;
+
+  h1 {
+    font-size: 1.8rem;
+    color: $dark-text;
+    margin: 0;
+  }
+
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: $primary;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+    &:hover { background: darken($primary, 8%); }
+  }
+}
+
+.resume-section {
+  margin-bottom: 2.8rem;
+
+  h2 {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $primary;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.resume-entry {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.2rem 1rem;
+  margin-bottom: 1.4rem;
+
+  .entry-title {
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: $dark-text;
+  }
+
+  .entry-date {
+    font-size: 0.85rem;
+    color: $muted;
+    white-space: nowrap;
+    text-align: right;
+    font-style: italic;
+  }
+
+  .entry-org {
+    font-size: 0.9rem;
+    color: $muted;
+    font-style: italic;
+    grid-column: 1;
+  }
+
+  ul {
+    grid-column: 1 / -1;
+    margin: 0.5rem 0 0;
+    padding-left: 1.2rem;
+
+    li {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #3a4e49;
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+.competencies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    background: $light-bg;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+    color: $primary;
+    font-weight: 500;
+  }
+}
+
+// Footer
+.nav-footer {
+  border-top: 1px solid $border-color;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  color: $muted;
+}
+
+// Responsive
+@media (max-width: 640px) {
+  .hero .hero-name { font-size: 2.2rem; }
+  .resume-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+}
