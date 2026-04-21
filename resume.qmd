@@ -49,7 +49,7 @@ page-layout: full
     </div>
 
     <div class="resume-entry">
-      <div class="entry-title">Assistant Instructor — Environmental Data Science Applications: Introduction</div>
+      <div class="entry-title">Assistant Instructor - Environmental Data Science Applications: Introduction</div>
       <div class="entry-date">January 2026 – Present</div>
       <div class="entry-org">Colorado State University · Fort Collins, CO</div>
       <ul>
@@ -64,7 +64,7 @@ page-layout: full
     <h2>Selected Projects — Colorado State University</h2>
 
     <div class="resume-entry">
-      <div class="entry-title">Reproducible Remote Sensing Model – Restored Wetland Photosynthetic Recovery</div>
+      <div class="entry-title">Reproducible Remote Sensing Model - Restored Wetland Photosynthetic Recovery</div>
       <div class="entry-date">Spring 2026</div>
       <ul>
         <li>Built and validated a predictive model of wetland gross primary production (GPP) using HLS remote sensing data, spectral indices, and AmeriFlux ground-truth observations</li>
@@ -73,7 +73,7 @@ page-layout: full
     </div>
 
     <div class="resume-entry">
-      <div class="entry-title">R Shiny Application – Interactive Fen and Wetland Map</div>
+      <div class="entry-title">R Shiny Application - Interactive Fen and Wetland Map</div>
       <div class="entry-date">Fall 2025</div>
       <ul>
         <li>Built an interactive Shiny application comparing three Colorado wetland and fen datasets with polygon-level queries to support transparent, data-informed environmental planning</li>
@@ -81,7 +81,7 @@ page-layout: full
     </div>
 
     <div class="resume-entry">
-      <div class="entry-title">Colorado Water Planning and Governance – Anti-Speculation Doctrine Case Analysis</div>
+      <div class="entry-title">Colorado Water Planning and Governance - Anti-Speculation Doctrine Case Analysis</div>
       <div class="entry-date">Fall 2025</div>
       <ul>
         <li>Analyzed a Colorado Supreme Court case on municipal water supply planning, demonstrating how realistic demand projections and the "can and will" test help protect shared water resources</li>
@@ -90,7 +90,7 @@ page-layout: full
     </div>
 
     <div class="resume-entry">
-      <div class="entry-title">Policy Brief – Fen Protection via Regulation 87</div>
+      <div class="entry-title">Policy Brief - Fen Protection via Regulation 87</div>
       <div class="entry-date">Fall 2025</div>
       <ul>
         <li>Reviewed regulations and authored a policy brief to Colorado's Water Quality Control Commission advocating for stronger fen protections to safeguard water quality, drought buffering, fire resiliency, and carbon storage</li>
@@ -143,17 +143,16 @@ page-layout: full
     <h2>Education</h2>
 
     <div class="resume-entry">
-      <div class="entry-title">Professional Science Master's — Ecosystem Science and Sustainability</div>
+      <div class="entry-title">Professional Science Master's - Ecosystem Science and Sustainability</div>
       <div class="entry-date">Expected December 2026</div>
       <div class="entry-org">Colorado State University · Fort Collins, CO</div>
       <ul>
-        <li>Graduate Certificates in Water Resources and Carbon Management</li>
-        <li>GPA: 4.0</li>
+        <li>Graduate Certificates in Water Resources and Carbon Management | GPA: 4.0</li>
       </ul>
     </div>
 
     <div class="resume-entry">
-      <div class="entry-title">Bachelor of Arts — English Creative Writing &amp; Cinema</div>
+      <div class="entry-title">Bachelor of Arts - English Creative Writing &amp; Cinema</div>
       <div class="entry-date">May 2009</div>
       <div class="entry-org">Denison University · Granville, OH</div>
       <ul>

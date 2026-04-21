@@ -18,32 +18,3 @@ page-layout: full
 I am a graduate student in Ecosystem Science and Sustainability at Colorado State University, focused on water resources and carbon management. My work centers on translating complex environmental data into actionable solutions, whether that's building geospatial water supply databases for a National Park Service climate adaptation project, developing remote sensing models to assess wetland carbon recovery, or teaching environmental data science to the next cohort of students at CSU.
 
 I came to this field through an unconventional path. After over a decade building and leading a video production company, a long-term partnership with a client in the tech industry began shifting my focus. Watching growing energy demands accelerate environmental pressure made me want to be on the other side of that problem. But it was a moment on Twin Lakes as I was ferrying firefighters across the water toward the smoke of the Interlaken Fire, watching the flames threaten a reservoir my community depended on, that made my path clear. I've centered my graduate work on data-informed approaches to climate resilience and water resource protection, bringing my skills in stakeholder engagement, strategic thinking, and clear communication to the problems that matter most to me and my home community in Leadville, Colorado.
-
-<hr class="section-sep">
-
-## Core Competencies
-
-<div class="skills-grid">
-  <div class="skill-tag">Data Management &amp; Analysis</div>
-  <div class="skill-tag">Environmental Policy Interpretation</div>
-  <div class="skill-tag">Geospatial &amp; Remote Sensing</div>
-  <div class="skill-tag">Water Resources</div>
-  <div class="skill-tag">Carbon Management</div>
-  <div class="skill-tag">Stakeholder Engagement</div>
-  <div class="skill-tag">Strategic Project Leadership</div>
-  <div class="skill-tag">Science Communication</div>
-  <div class="skill-tag">Organizational Agility</div>
-</div>
-
-<hr class="section-sep">
-
-## Education
-
-**Professional Science Master's — Ecosystem Science and Sustainability** *(Expected December 2026)*  
-Colorado State University, Fort Collins, CO  
-Graduate Certificates in Water Resources and Carbon Management | GPA: 4.0
-
-**Bachelor of Arts — English Creative Writing & Cinema** *(May 2009)*  
-Denison University, Granville, OH  
-Magna Cum Laude, Dean's List, Honors Program | GPA: 3.78
-
