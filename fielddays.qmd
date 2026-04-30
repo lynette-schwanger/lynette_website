@@ -1,0 +1,62 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div style="max-width: 960px; margin: 1rem auto; padding: 0 1.5rem;">
+
+  <style>
+    .masonry {
+      columns: 3;
+      column-gap: 1rem;
+    }
+    .masonry-item {
+      break-inside: avoid;
+      margin-bottom: 1rem;
+    }
+    .masonry-item img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .masonry { columns: 2; }
+    }
+    @media (max-width: 480px) {
+      .masonry { columns: 1; }
+    }
+  </style>
+
+  <div class="masonry">
+
+    <div class="masonry-item">
+      <img src="photos/IMG_6404.jpg" alt="">
+    </div>
+    
+    <div class="masonry-item">
+      <img src="photos/IMG_4011.jpeg" alt="">
+    </div>
+
+    <div class="masonry-item">
+      <img src="photos/IMG_9242.jpeg" alt="">
+    </div>
+
+    <div class="masonry-item">
+      <img src="photos/IMG_6401.jpg" alt="">
+    </div>
+    
+    <div class="masonry-item">
+      <img src="photos/IMG_6261.jpg" alt="">
+    </div>
+
+    <div class="masonry-item">
+      <img src="photos/IMG_4897.jpeg" alt="">
+    </div>
+
+    <!-- Add more photos by copying a masonry-item block -->
+
+  </div>
+
+</div>
+```
