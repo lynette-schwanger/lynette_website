@@ -6,11 +6,7 @@ page-layout: full
 ```{=html}
 <div style="max-width: 860px; margin: 0 auto; padding: 0rem 0;">
 
-  <p style="color: #6b8f85; font-size: 1rem; line-height: 1.75; margin-bottom: 2.5rem;">
-    <!-- A collection of selected projects spanning water resources, environmental data science, policy analysis, and remote sensing.-->
-  </p>
-
-    <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Data Science</div>
+  <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Data Science</div>
 
   <div class="portfolio-grid">
 
@@ -42,27 +38,47 @@ page-layout: full
       <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-04_Schwanger.html">Read Report →</a>
     </div>
 
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Machine Learning in Hydrology: Predicting Streamflow with CAMELS</div>
+      <p>Applied the tidymodels framework to the CAMELS dataset of 500+ US river basins, building and comparing multiple machine learning models to predict mean streamflow from catchment attributes, with spatial cross-validation, hyperparameter tuning, and variable importance analysis.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-05_Schwanger.html">Read Report →</a>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Forecasting Streamflow on the Cache la Poudre River</div>
+      <p>Downloaded and analyzed a decade of monthly streamflow and climate data for the Cache la Poudre River, applied time series decomposition and stationarity diagnostics, and used the modeltime framework with projected MACA climate data to forecast flows through 2033.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-06_Schwanger.html">Read Report →</a>
+    </div>
+
   </div>
 
   <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-top: 3rem; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Policy Analysis</div>
 
   <div class="portfolio-grid">
-  
+
     <div class="portfolio-card">
       <div class="card-type">Policy Brief</div>
-     <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">In Support of Securing Fen Protections via Regulation 87</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">In Support of Securing Fen Protections via Regulation 87</div>
       <p>Policy brief to Colorado's Water Quality Control Commission advocating for stronger fen protections to safeguard water quality, carbon storage, drought buffering, and fire resiliency amid continued development threats.</p>
       <a class="card-link" href="Schwanger_Policy-Brief_Support-Fen-Protection.pdf">Download PDF →</a>
     </div>
-  </div>
+
   </div>
 
-  <!-- REMOTE SENSING SECTION — uncomment when ready to add projects
   <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-top: 3rem; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Remote Sensing</div>
+
   <div class="portfolio-grid">
-    ...
+
+    <div class="portfolio-card">
+      <div class="card-type">Presentation</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Modeling Wetland Photosynthetic Recovery with HLS Remote Sensing Data</div>
+      <p>Built and validated a GAM model using EVI and NDMI derived from Harmonized Landsat Sentinel-2 imagery to predict daily gross primary production at two restored wetlands on Twitchell Island, finding that the younger site approached the carbon uptake behavior of the older site within four years of restoration.</p>
+      <a class="card-link" href="523D_Presentation_Schwanger.pdf">Download Slides →</a>
+    </div>
+
   </div>
-  -->
 
 </div>
 ```
