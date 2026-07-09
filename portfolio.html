@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>resume – Lynette Schwanger</title>
+<title>portfolio – Lynette Schwanger</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-75bb29a3b75e40e5a16aa267ed611547.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -99,11 +99,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html"> 
+    <a class="nav-link active" href="./portfolio.html" aria-current="page"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resume.html" aria-current="page"> 
+    <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
@@ -135,201 +135,85 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Resume</h1></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="resume-page">
+<div style="max-width: 860px; margin: 0 auto; padding: 0rem 0;">
 
-  <div class="resume-header">
-    
-    <a class="download-btn" href="Schwanger_Lynette_Resume.pdf" download="">
-      ⬇ Download PDF
-    </a>
+  <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Data Science</div>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Exploring Streamflow Across the Colorado River Basin</div>
+      <p>Built a complete analytical pipeline using 44 years of USGS streamflow data, including low-flow threshold monitoring, basin-wide drought visualization, and a predictive model of annual flow at the Colorado River Compact's primary accounting point.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-1_Schwanger.html">Read Report →</a>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">The Geometry of Place: Spatial Analysis and Distance Calculations</div>
+      <p>Computed distances from 28,000 US cities to national and state borders, quantified the population living within the ACLU's 100-mile border zone, and built an interactive Leaflet web map with toggleable layers and popups.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-02_Schwanger.html">Read Report →</a>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">National Dam Inventory: Tessellations and Spatial Clustering</div>
+      <p>Compared five tessellation methods to demonstrate how the Modifiable Areal Unit Problem shapes spatial analysis, mapped dam distributions by purpose across the US, and computed local spatial autocorrelation to identify regional hotspots and coldspots.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-03_Schwanger.html">Read Report →</a>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Flood Mapping with Landsat Remote Sensing: Palo, Iowa</div>
+      <p>Accessed Landsat 8 imagery via the Microsoft Planetary Computer STAC API, applied five spectral water indices and unsupervised k-means classification to map 2016 Cedar River flood extents, and compared methods through an aggregated uncertainty map.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-04_Schwanger.html">Read Report →</a>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Machine Learning in Hydrology: Predicting Streamflow with CAMELS</div>
+      <p>Applied the tidymodels framework to the CAMELS dataset of 500+ US river basins, building and comparing multiple machine learning models to predict mean streamflow from catchment attributes, with spatial cross-validation, hyperparameter tuning, and variable importance analysis.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-05_Schwanger.html">Read Report →</a>
+    </div>
+
+    <div class="portfolio-card">
+      <div class="card-type">Quarto Report</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Forecasting Streamflow on the Cache la Poudre River</div>
+      <p>Downloaded and analyzed a decade of monthly streamflow and climate data for the Cache la Poudre River, applied time series decomposition and stationarity diagnostics, and used the modeltime framework with projected MACA climate data to forecast flows through 2033.</p>
+      <a class="card-link" href="https://lynette-schwanger.github.io/csu-523c/523C_Lab-06_Schwanger.html">Read Report →</a>
+    </div>
+
   </div>
 
-  <!-- SUMMARY -->
-  <div class="resume-section">
-    <h2 class="anchored">Summary</h2>
-    <p style="font-size:0.93rem; line-height:1.75; color:#3a4e49;">
-      Graduate student in Ecosystem Science and Sustainability with a focus on water resources and carbon management.
-      Integrating a proven background in business, media, and program leadership to bridge science and strategy.
-      Passionate about transforming complex environmental data into actionable solutions that advance climate resilience.
-    </p>
-    <h2 class="anchored">Core Competencies</h2>
-    <ul class="competencies-list" style="margin-top:1rem;">
-      <li>Data Management &amp; Analysis</li>
-      <li>Environmental Policy Interpretation</li>
-      <li>Organizational Agility</li>
-      <li>Translating Complex Analyses for Broad Audiences</li>
-      <li>Stakeholder Engagement &amp; Collaboration</li>
-      <li>Strategic Project Development &amp; Management</li>
-    </ul>
+  <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-top: 3rem; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Policy Analysis</div>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <div class="card-type">Policy Brief</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">In Support of Securing Fen Protections via Regulation 87</div>
+      <p>Policy brief to Colorado's Water Quality Control Commission advocating for stronger fen protections to safeguard water quality, carbon storage, drought buffering, and fire resiliency amid continued development threats.</p>
+      <a class="card-link" href="Schwanger_Policy-Brief_Support-Fen-Protection.pdf">Download PDF →</a>
+    </div>
+
   </div>
 
-  <!-- WATER RESOURCES & ENV DATA SCIENCE -->
-  <div class="resume-section">
-    <h2 class="anchored">Water Resources &amp; Environmental Data Science</h2>
+  <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #2e7d6e; margin-top: 3rem; margin-bottom: 1.2rem; padding-bottom: 0.4rem; border-bottom: 1px solid #d0e6df;">Remote Sensing</div>
 
-    <div class="resume-entry">
-      <div class="entry-title">Water Database Specialist</div>
-      <div class="entry-date">March 2026 – Present</div>
-      <div class="entry-org">Radical Open Science Syndicate · Fort Collins, CO</div>
-      <ul>
-        <li>Develop geospatial water supply databases for a National Park Service climate adaptation project</li>
-        <li>Apply QA/QC workflows to improve data accuracy, consistency, and usability</li>
-        <li>Automate data querying and visualization tasks using R scripting to improve efficiency and reproducibility</li>
-        <li>Collaborate with NPS staff to streamline database access and support practical use by end users</li>
-      </ul>
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <div class="card-type">Presentation</div>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #1e2d2a; margin-bottom: 0.5rem;">Modeling Wetland Photosynthetic Recovery with HLS Remote Sensing Data</div>
+      <p>Built and validated a GAM model using EVI and NDMI derived from Harmonized Landsat Sentinel-2 imagery to predict daily gross primary production at two restored wetlands on Twitchell Island, finding that the younger site approached the carbon uptake behavior of the older site within four years of restoration.</p>
+      <a class="card-link" href="523D_Presentation_Schwanger.pdf">Download Slides →</a>
     </div>
 
-    <div class="resume-entry">
-      <div class="entry-title">Assistant Instructor - Environmental Data Science Applications: Introduction</div>
-      <div class="entry-date">January 2026 – Present</div>
-      <div class="entry-org">Colorado State University · Fort Collins, CO</div>
-      <ul>
-        <li>Selected as Assistant Instructor after completing the course based on academic performance</li>
-        <li>Facilitate weekly office hours providing R troubleshooting and data analysis support to students</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- SELECTED PROJECTS -->
-  <div class="resume-section">
-    <h2 class="anchored">Selected Projects — Colorado State University</h2>
-
-    <div class="resume-entry">
-      <div class="entry-title">Reproducible Remote Sensing Model - Restored Wetland Photosynthetic Recovery</div>
-      <div class="entry-date">Spring 2026</div>
-      <ul>
-        <li>Built and validated a predictive model of wetland gross primary production (GPP) using HLS remote sensing data, spectral indices, and AmeriFlux ground-truth observations</li>
-        <li>Applied the model across restored wetland sites on Twitchell Island to assess recovery trajectories and compare seasonal carbon uptake patterns</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">R Shiny Application - Interactive Fen and Wetland Map</div>
-      <div class="entry-date">Fall 2025</div>
-      <ul>
-        <li>Built an interactive Shiny application comparing three Colorado wetland and fen datasets with polygon-level queries to support transparent, data-informed environmental planning</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Colorado Water Planning and Governance - Anti-Speculation Doctrine Case Analysis</div>
-      <div class="entry-date">Fall 2025</div>
-      <ul>
-        <li>Analyzed a Colorado Supreme Court case on municipal water supply planning, demonstrating how realistic demand projections and the "can and will" test help protect shared water resources</li>
-        <li>Summarized takeaways for mountain communities managing growth amid climate impacts on water resources</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Policy Brief - Fen Protection via Regulation 87</div>
-      <div class="entry-date">Fall 2025</div>
-      <ul>
-        <li>Reviewed regulations and authored a policy brief to Colorado's Water Quality Control Commission advocating for stronger fen protections to safeguard water quality, drought buffering, fire resiliency, and carbon storage</li>
-        <li>Recommended actionable steps including avoidance standards, stewardship measures, and improved fen mapping</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- PROFESSIONAL EXPERIENCE -->
-  <div class="resume-section">
-    <h2 class="anchored">Professional Experience</h2>
-
-    <div class="resume-entry">
-      <div class="entry-title">CEO | Founder | Partner</div>
-      <div class="entry-date">January 2019 – May 2025</div>
-      <div class="entry-org">Lightswitch Video · Leadville, CO (Remote/Hybrid)</div>
-      <ul>
-        <li>Led stakeholder and client meetings, translating technical needs into clear deliverables and timelines</li>
-        <li>Fostered strategic partnerships and negotiated contracts to support organizational growth</li>
-        <li>Directly grew Equinix account by 250% within four years</li>
-        <li>Increased company net worth from $56,879 to over $1.8 million</li>
-        <li>Cultivated a values-driven company culture prioritizing inclusivity and collaboration</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Video Production Manager</div>
-      <div class="entry-date">May 2013 – January 2019</div>
-      <div class="entry-org">Lightswitch Video</div>
-      <ul>
-        <li>Built lasting client relationships with organizations such as Chicago Tribune and Gannett</li>
-        <li>Hired and supervised contract teams to deliver high-quality video content for clients</li>
-        <li>Improved workflows through continuous process assessment</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Video Production Coordinator</div>
-      <div class="entry-date">November 2011 – May 2013</div>
-      <div class="entry-org">Lightswitch Video</div>
-      <ul>
-        <li>Established the Video Operations department, creating efficient workflows to scale operations</li>
-        <li>Collaborated across departments to improve digital infrastructure and user experience</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- EDUCATION -->
-  <div class="resume-section">
-    <h2 class="anchored">Education</h2>
-
-    <div class="resume-entry">
-      <div class="entry-title">Professional Science Master's - Ecosystem Science and Sustainability</div>
-      <div class="entry-date">Expected December 2026</div>
-      <div class="entry-org">Colorado State University · Fort Collins, CO</div>
-      <ul>
-        <li>Graduate Certificates in Water Resources and Carbon Management | GPA: 4.0</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Bachelor of Arts - English Creative Writing &amp; Cinema</div>
-      <div class="entry-date">May 2009</div>
-      <div class="entry-org">Denison University · Granville, OH</div>
-      <ul>
-        <li>Magna Cum Laude, Dean's List, Honors Program | GPA: 3.78</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- VOLUNTEER WORK -->
-  <div class="resume-section">
-    <h2 class="anchored">Volunteer Work</h2>
-
-    <div class="resume-entry">
-      <div class="entry-title">Secretary and Board of Directors Member</div>
-      <div class="entry-date">January 2026 – Present</div>
-      <div class="entry-org">Lake County Search and Rescue</div>
-      <ul>
-        <li>Elected to the Board of Directors as Secretary</li>
-        <li>Track team certifications, attendance, and new member requirements</li>
-        <li>Set agendas for monthly meetings and record minutes</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Search and Rescue Volunteer</div>
-      <div class="entry-date">May 2024 – Present</div>
-      <div class="entry-org">Lake County Search and Rescue</div>
-      <ul>
-        <li>Provide emergency response support, delivering safe and efficient outcomes for those in need</li>
-        <li>Apply skills in navigation, risk assessment, and incident command in challenging mountain environments</li>
-      </ul>
-    </div>
-
-    <div class="resume-entry">
-      <div class="entry-title">Stream Restoration Volunteer</div>
-      <div class="entry-date">October 2025</div>
-      <div class="entry-org">Wildlands Restoration Volunteers</div>
-      <ul>
-        <li>Built beaver dam analogs and post-assisted log structures to restore floodplain connectivity and wetland habitat</li>
-      </ul>
-    </div>
   </div>
 
 </div>
