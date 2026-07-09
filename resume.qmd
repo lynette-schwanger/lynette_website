@@ -41,10 +41,11 @@ page-layout: full
       <div class="entry-date">March 2026 – Present</div>
       <div class="entry-org">Radical Open Science Syndicate · Fort Collins, CO</div>
       <ul>
-        <li>Develop geospatial water supply databases for a National Park Service climate adaptation project</li>
-        <li>Apply QA/QC workflows to improve data accuracy, consistency, and usability</li>
-        <li>Automate data querying and visualization tasks using R scripting to improve efficiency and reproducibility</li>
-        <li>Collaborate with NPS staff to streamline database access and support practical use by end users</li>
+        <li>Developed a climate vulnerability indicator for NPS water treatment systems to assess resilience to future climate
+scenarios across 1,900+ water sources</li>
+        <li>Built an interactive R Shiny app for NPS staff to visualize and query the Water Supply Database</li>
+        <li>Produced geospatial visualizations and data summaries to support NPS water management decisions</li>
+        <li>Automated data querying and cleaning tasks using R scripting to improve efficiency and reproducibility</li>
       </ul>
     </div>
 
@@ -171,6 +172,7 @@ page-layout: full
       <div class="entry-org">Lake County Search and Rescue</div>
       <ul>
         <li>Elected to the Board of Directors as Secretary</li>
+        <li>Authored a successful $85,000 grant application to the CO EMTS Funding Program to secure radio equipment</li>
         <li>Track team certifications, attendance, and new member requirements</li>
         <li>Set agendas for monthly meetings and record minutes</li>
       </ul>
