@@ -12,8 +12,8 @@ page-layout: full
 
   <div class="portfolio-card">
       <div class="card-type">Quarto Report</div>
-      <div style="font-size: 1.05rem; font-weight: 600; color: #33443b; margin-bottom: 0.5rem;">Water Treatment Climate Vulnerability Indicator: NPS Water Systems</div>
-      <p>Developed an 8-category treatment classification and 0-5 scoring system to evaluate climate resilience across 1,918 NPS water sources. Built interactive Leaflet maps and analyses identifying that 93.5% of below-adequate systems are missing filtration alone, a single, targeted fix.</p>
+      <div style="font-size: 1.05rem; font-weight: 600; color: #33443b; margin-bottom: 0.5rem;">Water Treatment Climate Vulnerability Indicator: National Park Water Systems</div>
+      <p>Developed an 8-category treatment classification and 0-5 scoring system to evaluate climate resilience across 1,918 National Park water sources. Built interactive Leaflet maps and analyses identifying that 93.5% of below-adequate systems are missing filtration alone, a single, targeted fix.</p>
       <a class="card-link" href="https://lynette-schwanger.github.io/NPS_WSD_Climate_Vulnerability_Indicator/NPS_WSD_Climate_Vulnerability_Indicator_Report.html">Read Report →</a>
     </div>
 
